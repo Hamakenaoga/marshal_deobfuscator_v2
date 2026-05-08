@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARSHAL DEOBFUSCATOR v2.5</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="terminal">
+        <h2>MARSHAL DEOBFUSCATOR v2.5</h2>
+        <div class="dropzone" id="dropzone">
+            <p>Drag & Drop .py or .so file here</p>
+            <input type="file" id="file-input" hidden>
+        </div>
+        <button id="decode-btn" disabled>Decode / Analyze</button>
+        
+        <div id="result" style="display:none; margin-top:20px;">
+            <h3>Result</h3>
+            <pre><code id="output"></code></pre>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+```
