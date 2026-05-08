@@ -1,0 +1,5 @@
+body { background: #0a0a0a; color: #00ff41; font-family: monospace; padding: 20px; }
+.terminal { max-width: 900px; margin: auto; border: 2px solid #00ff41; padding: 20px; }
+.dropzone { border: 2px dashed #00ff41; padding: 40px; text-align: center; margin: 20px 0; cursor: pointer; }
+button { background: #00ff41; color: #000; border: none; padding: 10px 20px; cursor: pointer; font-size: 16px; }
+pre { background: #000; padding: 15px; border: 1px solid #00ff41; overflow-x: auto; }
